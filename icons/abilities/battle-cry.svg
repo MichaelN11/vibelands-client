@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Battle Cry</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="75%">
+      <stop stop-color="#386051"/>
+      <stop offset=".56" stop-color="#18352f"/>
+      <stop offset="1" stop-color="#091715"/>
+    </radialGradient>
+    <linearGradient id="burst" x1="13" y1="11" x2="51" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#faf6dc"/>
+      <stop offset=".5" stop-color="#d8e4d8"/>
+      <stop offset="1" stop-color="#7fa095"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="25" y1="17" x2="39" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0a0"/>
+      <stop offset=".52" stop-color="#d5ad4e"/>
+      <stop offset="1" stop-color="#805722"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M32 9V3M32 61v-6M9 32H3m58 0h-6M15 15l-5-5m39 39 5 5M49 15l5-5M15 49l-5 5" stroke="#efd77c" stroke-width="3"/>
+    <path d="m22 8-2-5m24 5 2-5M8 22l-5-2m53 2 5-2M8 42l-5 2m53-2 5 2" stroke="#e6f3e5" stroke-width="1.6" opacity=".85"/>
+  </g>
+  <path d="m32 8 7 7 10-1-1 10 8 8-8 8 1 10-10-1-7 7-7-7-10 1 1-10-8-8 8-8-1-10 10 1 7-7Z" fill="url(#burst)" stroke="#f8f3d7" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M29 18h7l-1.5 21h-4L29 18Z" fill="url(#gold)" stroke="#806026" stroke-width="1"/>
+  <circle cx="32.5" cy="46" r="4" fill="url(#gold)" stroke="#806026" stroke-width="1"/>
+  <path d="M19 28c-3 2-5 5-5 8m31-8c3 2 5 5 5 8" fill="none" stroke="#5a7d73" stroke-width="2.2" stroke-linecap="round"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#91b1a2" stroke-opacity=".8" stroke-width="1.5"/>
+</svg>

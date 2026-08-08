@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Ripe Red Apple</title>
+  <defs>
+    <radialGradient id="skin" cx="34%" cy="26%" r="82%">
+      <stop stop-color="#ff8b6a"/>
+      <stop offset=".34" stop-color="#d8342c"/>
+      <stop offset=".74" stop-color="#95171d"/>
+      <stop offset="1" stop-color="#4a0d14"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="34" y1="8" x2="49" y2="19" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a6d06a"/>
+      <stop offset=".55" stop-color="#5b9440"/>
+      <stop offset="1" stop-color="#2c5527"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The stem sits in a dimple, which is what separates an apple from a ball. -->
+  <path d="M32 17c0-5 1-8 3-11" fill="none" stroke="#3a2415" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M32 16c0-4 1-7 2-9" fill="none" stroke="#6b4526" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M36 11c5-4 10-4 13-2-1 5-5 9-11 9-3 0-4-4-2-7Z" fill="url(#leaf)" stroke="#22421f" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M38 17c3-3 6-5 9-6" fill="none" stroke="#c8e79a" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- One fruit, two lobes, a dimple at the top: the whole read at 32 px. -->
+  <path d="M32 19c-4-4-11-5-16-1-6 5-7 15-3 25 4 9 10 15 15 15 2 0 3-1 4-1 1 0 2 1 4 1 5 0 11-6 15-15 4-10 3-20-3-25-5-4-12-3-16 1Z" fill="url(#skin)" stroke="#3d0c12" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M26 24c-4 3-6 9-5 15" fill="none" stroke="#ffd0b4" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+  <path d="M24 26c-3 3-4 7-4 11" fill="none" stroke="#fff3e6" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+  <path d="M44 30c3 6 2 14-2 20-2 4-5 7-7 8 6-1 11-7 14-16 2-5 2-9-1-13l-4 1Z" fill="#4c0f16" opacity=".45"/>
+  <path d="M32 22c1 8 1 22 0 35" fill="none" stroke="#6d1219" stroke-width="1.1" opacity=".4"/>
+</svg>

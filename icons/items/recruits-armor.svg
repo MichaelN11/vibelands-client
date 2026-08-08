@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Recruit's Armor</title>
+  <defs>
+    <linearGradient id="steel" x1="32" y1="12" x2="32" y2="37" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8e4ef"/>
+      <stop offset=".24" stop-color="#a4b2c2"/>
+      <stop offset=".62" stop-color="#5c6b7c"/>
+      <stop offset="1" stop-color="#36404d"/>
+    </linearGradient>
+    <linearGradient id="tunic" x1="18" y1="16" x2="46" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9eacbb"/>
+      <stop offset=".42" stop-color="#617286"/>
+      <stop offset="1" stop-color="#344354"/>
+    </linearGradient>
+    <linearGradient id="tabard" x1="25" y1="20" x2="40" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d85a50"/>
+      <stop offset=".5" stop-color="#a53135"/>
+      <stop offset="1" stop-color="#5f1828"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Oversized plate shoulders make the armor silhouette readable at inventory size. -->
+  <path d="M19 13 9 16 3 24l2 11 11-2 5-9Z" fill="url(#steel)" stroke="#1e2632" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="m45 13 10 3 6 8-2 11-11-2-5-9Z" fill="url(#steel)" stroke="#1e2632" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="m7 24 10-3 3 3-4 4-10 3m51-7-10-3-3 3 4 4 10 3" fill="none" stroke="#e1ebf5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+  <circle cx="12" cy="25" r="1.7" fill="#e9c26b" stroke="#513a26" stroke-width=".8"/>
+  <circle cx="52" cy="25" r="1.7" fill="#e9c26b" stroke="#513a26" stroke-width=".8"/>
+
+  <!-- Blue-gray garrison cuirass. -->
+  <path d="M20 14c3-2 7-3 12-3s9 1 12 3l5 11-3 34H18l-3-34 5-11Z" fill="url(#tunic)" stroke="#1e2632" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M24.5 13.5C25.5 9 38.5 9 39.5 13.5 38 19.5 26 19.5 24.5 13.5Z" fill="#222d3a" stroke="#d8e1e9" stroke-width="1.5"/>
+  <path d="M19 22c4 3 8 4 13 4s10-1 13-4M18 35h28M18 51h28" fill="none" stroke="#cbd6df" stroke-width="1.2" opacity=".55"/>
+  <path d="m18 28 7-5m21 5-7-5" fill="none" stroke="#293746" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 57h10m12 0h10" stroke="#e3edf5" stroke-width="1.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Plain red tabard sits cleanly over every cuirass detail. -->
+  <path d="M25 22h14l2 37-9-4-9 4 2-37Z" fill="url(#tabard)" stroke="#421a25" stroke-width="1.8" stroke-linejoin="round"/>
+</svg>

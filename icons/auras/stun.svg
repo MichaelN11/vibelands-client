@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Stunned</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="74%">
+      <stop stop-color="#4c285c"/>
+      <stop offset=".56" stop-color="#24162f"/>
+      <stop offset="1" stop-color="#0b0811"/>
+    </radialGradient>
+    <linearGradient id="bolt" x1="41" y1="3" x2="23" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7ff"/>
+      <stop offset=".3" stop-color="#f0c7ff"/>
+      <stop offset=".68" stop-color="#c58cff"/>
+      <stop offset="1" stop-color="#8b3fbc"/>
+    </linearGradient>
+    <radialGradient id="impact" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#f4dcff" stop-opacity=".95"/>
+      <stop offset=".3" stop-color="#c58cff" stop-opacity=".5"/>
+      <stop offset=".72" stop-color="#8d3fc1" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#24162f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <circle cx="32" cy="33" r="25" fill="url(#impact)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <circle cx="32" cy="33" r="18" stroke="#edc9ff" stroke-width="1.4" stroke-dasharray="6 6" opacity=".68"/>
+    <circle cx="32" cy="33" r="25" stroke="#a756e7" stroke-width="1.1" stroke-dasharray="2 7" opacity=".58"/>
+  </g>
+  <path d="M40 3 14 36h14l-7 25 30-37H36L40 3Z" fill="#a54ae1" opacity=".42" filter="url(#glow)"/>
+  <path d="M40 3 14 36h14l-7 25 30-37H36L40 3Z" fill="url(#bolt)" stroke="#f3d7ff" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m37 10-17 23h13l-6 18 18-23H31l6-18Z" fill="#fff7ff" opacity=".76"/>
+  <path d="M40 3 14 36h14l-7 25 30-37H36L40 3Z" fill="none" stroke="#fff7ff" stroke-width=".9" stroke-linejoin="round"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#c58cff" stroke-opacity=".8" stroke-width="1.5"/>
+</svg>

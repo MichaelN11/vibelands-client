@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Victims' Remains</title>
+  <defs>
+    <linearGradient id="wrappings" x1="15" y1="15" x2="49" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8d0c2"/>
+      <stop offset=".46" stop-color="#948b82"/>
+      <stop offset="1" stop-color="#4d494b"/>
+    </linearGradient>
+    <linearGradient id="bone" x1="19" y1="13" x2="45" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1e7ce"/>
+      <stop offset=".48" stop-color="#c5b89b"/>
+      <stop offset="1" stop-color="#766e63"/>
+    </linearGradient>
+    <linearGradient id="cord" x1="21" y1="20" x2="42" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#927158"/>
+      <stop offset="1" stop-color="#49362f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Two clean, weathered bones identify the recovered bundle without gore. -->
+  <path d="M18 18c-3-1-5-4-3-7 2-2 5-1 6 1l3-1c0-3 2-5 5-4 3 1 3 5 1 7L21 28l-7-4 4-6Z" fill="url(#bone)" stroke="#4b4642" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M42 38 49 24c1-3 5-4 7-2 2 2 1 5-1 7l1 3c3 0 5 2 4 5-1 3-4 4-7 1l-6 10-5-10Z" fill="url(#bone)" stroke="#4b4642" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- A compact silk-and-cloth bundle keeps the silhouette respectful and tangible. -->
+  <path d="M19 15c8-4 20-1 27 7l5 19c-4 10-14 17-26 15-9-2-15-9-16-19 1-9 4-17 10-22Z" fill="url(#wrappings)" stroke="#302d31" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M17 19c8 5 19 7 29 5M11 31c12 5 28 7 38 4M11 42c10 5 25 7 38 3M18 52c8-4 19-3 28 0" fill="none" stroke="#eee7dc" stroke-width="2" stroke-linecap="round" opacity=".68"/>
+  <path d="M19 16c-4 10-2 28 8 40m7-40c-6 10-7 29-2 41m11-34c-4 7-5 20-2 29" fill="none" stroke="#5f5958" stroke-width="1.2" stroke-linecap="round" opacity=".66"/>
+
+  <!-- Plain cord and a small keepsake mark the bundle as recovered personal remains. -->
+  <path d="M19 28c7 4 16 6 27 5l-3 7c-9 1-18-1-26-5l2-7Z" fill="url(#cord)" stroke="#392d2b" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="m29 35 4 5 5-3" fill="none" stroke="#b99a72" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="43" r="4" fill="#8d7654" stroke="#3e342e" stroke-width="1.5"/>
+  <circle cx="34" cy="43" r="1.7" fill="#d6bd7f"/>
+</svg>

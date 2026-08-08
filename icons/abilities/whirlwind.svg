@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Whirlwind</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="72%">
+      <stop stop-color="#275765"/>
+      <stop offset=".56" stop-color="#112f3b"/>
+      <stop offset="1" stop-color="#07151d"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="13" y1="12" x2="51" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8f6df"/>
+      <stop offset=".45" stop-color="#a9c4c8"/>
+      <stop offset="1" stop-color="#526d76"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="18" y1="15" x2="47" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffec9b"/>
+      <stop offset=".55" stop-color="#cfaa4d"/>
+      <stop offset="1" stop-color="#785022"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" filter="url(#glow)">
+    <path d="M10 27C13 14 25 7 38 9c7 1 13 5 17 10"/>
+    <path d="M54 37C51 50 39 57 26 55c-7-1-13-5-17-10"/>
+  </g>
+  <path d="m54 12 3 11-11-3 8-8ZM10 52 7 41l11 3-8 8Z" fill="#f4dc7e"/>
+  <g stroke-linejoin="round">
+    <g transform="rotate(45 32 32)">
+      <path d="m32 4 4 7-2 30h-4l-2-30 4-7Z" fill="url(#steel)" stroke="#f1f5e7" stroke-width="1.4"/>
+      <path d="M25 39h14v5H25v-5Z" fill="url(#gold)" stroke="#ffe69a" stroke-width="1.2"/>
+      <path d="m29 44h6l2 11-5 4-5-4 2-11Z" fill="#795124" stroke="#d9b85c" stroke-width="1.2"/>
+    </g>
+    <g transform="rotate(-45 32 32)">
+      <path d="m32 4 4 7-2 30h-4l-2-30 4-7Z" fill="url(#steel)" stroke="#f1f5e7" stroke-width="1.4"/>
+      <path d="M25 39h14v5H25v-5Z" fill="url(#gold)" stroke="#ffe69a" stroke-width="1.2"/>
+      <path d="m29 44h6l2 11-5 4-5-4 2-11Z" fill="#795124" stroke="#d9b85c" stroke-width="1.2"/>
+    </g>
+  </g>
+  <circle cx="32" cy="32" r="4" fill="#f7efd1" stroke="#d2ad51" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#89b6bd" stroke-opacity=".78" stroke-width="1.5"/>
+</svg>

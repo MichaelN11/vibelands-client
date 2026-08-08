@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Vibelands</title>
+  <defs>
+    <linearGradient id="night" x1="12" y1="7" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263b38"/>
+      <stop offset=".52" stop-color="#142522"/>
+      <stop offset="1" stop-color="#090f10"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="13" y1="8" x2="51" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0a6"/>
+      <stop offset=".28" stop-color="#d9ad52"/>
+      <stop offset=".7" stop-color="#8f5726"/>
+      <stop offset="1" stop-color="#f0c760"/>
+    </linearGradient>
+    <linearGradient id="valley" x1="13" y1="19" x2="43" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe79a"/>
+      <stop offset=".4" stop-color="#dba949"/>
+      <stop offset="1" stop-color="#825023"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- A dark, shield-like world badge with a forged gold rim. -->
+  <path d="M32 3.5 56.5 12v18.4c0 14.8-9.8 25-24.5 30.1C17.3 55.4 7.5 45.2 7.5 30.4V12L32 3.5Z"
+        fill="#05090a" stroke="#080a08" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 4.8 55 12.8v17.6C55 44 46.2 53.5 32 58.7 17.8 53.5 9 44 9 30.4V12.8L32 4.8Z"
+        fill="url(#night)" stroke="url(#rim)" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M32 8.1 51.8 15v15.2c0 11.5-7.1 19.7-19.8 24.7-12.7-5-19.8-13.2-19.8-24.7V15L32 8.1Z"
+        fill="none" stroke="#ffe79a" stroke-opacity=".18" stroke-width="1"/>
+
+  <!-- Pine silhouettes root the badge in Emberwood. -->
+  <path d="m17.5 15.7 5 7h-2.8l4.7 6.3h-3l4.4 6.1H9.2l4.4-6.1h-3l4.7-6.3h-2.8l5-7Zm29 0 5 7h-2.8l4.7 6.3h-3l4.4 6.1H38.2l4.4-6.1h-3l4.7-6.3h-2.8l5-7Z"
+        fill="#071411" opacity=".9"/>
+
+  <!-- Twin ridges form the V of Vibelands. -->
+  <path d="M12.5 19.5 27.8 50c.8 1.6 2.1 2.5 4.2 2.5s3.4-.9 4.2-2.5l15.3-30.5-7.2 3.4L32 46.4 19.7 22.9l-7.2-3.4Z"
+        fill="#2a180f" stroke="#130d0a" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M12.5 18.5 28.9 49c.6 1.2 1.6 1.8 3.1 1.8s2.5-.6 3.1-1.8l16.4-30.5-7.4 3.8L32 44.8 19.9 22.3l-7.4-3.8Z"
+        fill="url(#valley)" stroke="#ffe79a" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M16.9 21.1 30.7 47.7c.3.6.7.8 1.3.8" fill="none" stroke="#fff4bb" stroke-width="1.3" stroke-linecap="round" opacity=".72"/>
+
+  <!-- A few high sparks add warmth without competing with the crest. -->
+  <g fill="#ffd76a" filter="url(#glow)">
+    <circle cx="24.2" cy="18.1" r=".9"/>
+    <circle cx="40.2" cy="16.7" r=".7"/>
+    <path d="m32 11.8.8 2.1 2.1.8-2.1.8-.8 2.1-.8-2.1-2.1-.8 2.1-.8.8-2.1Z"/>
+  </g>
+</svg>

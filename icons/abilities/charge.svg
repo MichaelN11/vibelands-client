@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Charge</title>
+  <defs>
+    <linearGradient id="bg" x1="5" y1="57" x2="59" y2="7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07161e"/>
+      <stop offset=".52" stop-color="#143743"/>
+      <stop offset="1" stop-color="#286174"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="16" y1="18" x2="54" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4b3"/>
+      <stop offset=".48" stop-color="#e1c363"/>
+      <stop offset="1" stop-color="#96702e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-80%" width="200%" height="260%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M5 18h23M9 27h17M3 37h25M10 46h18" stroke="#83cbd1" stroke-width="4" opacity=".42"/>
+    <path d="M5 14h14M4 32h17M5 51h18" stroke="#e4f4e9" stroke-width="1.8" opacity=".85"/>
+  </g>
+  <path d="M19 24h18V12l22 20-22 20V40H19V24Z" fill="#dfc35f" opacity=".3" filter="url(#glow)"/>
+  <path d="M15 22h22V10l23 22-23 22V42H15l7-10-7-10Z" fill="url(#arrow)" stroke="#fff2ac" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 25h20v-7l14 14-14 14v-7H23l5-7-5-7Z" fill="#f7f1d5" opacity=".82"/>
+  <path d="m49 23 8 9-8 9" fill="none" stroke="#fffbea" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#89b6bd" stroke-opacity=".78" stroke-width="1.5"/>
+</svg>

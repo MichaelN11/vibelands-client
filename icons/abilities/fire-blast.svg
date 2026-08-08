@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Fire Blast</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="68%">
+      <stop offset="0" stop-color="#6a1712"/>
+      <stop offset=".52" stop-color="#240b18"/>
+      <stop offset="1" stop-color="#07050d"/>
+    </radialGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#fffde4"/>
+      <stop offset=".18" stop-color="#fff27a"/>
+      <stop offset=".46" stop-color="#ff9d20"/>
+      <stop offset=".72" stop-color="#ed3517"/>
+      <stop offset="1" stop-color="#8f121b"/>
+    </radialGradient>
+    <linearGradient id="ray" x1="32" y1="6" x2="32" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8e1820" stop-opacity=".15"/>
+      <stop offset=".5" stop-color="#f04a1c"/>
+      <stop offset="1" stop-color="#ffd148"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <g fill="url(#ray)">
+    <path d="M29 25 32 4l4 21-4 8-3-8Z"/>
+    <path d="m38 27 14-16-7 20-8 4 1-8Z" transform="rotate(12 32 32)"/>
+    <path d="m40 34 21-2-19 9-9-4 7-3Z" transform="rotate(8 32 32)"/>
+    <path d="m36 40 15 16-20-10-3-9 8 3Z"/>
+    <path d="m27 40-3 20-5-20 5-8 3 8Z" transform="rotate(12 32 32)"/>
+    <path d="M22 35 5 48l11-19 9-2-3 8Z"/>
+    <path d="M23 27 5 20l21 1 6 7-9-1Z"/>
+    <path d="M27 23 19 5l15 16-1 9-6-7Z"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="m32 17 5.2 8.4 9.5-1.7-3.5 9 7 6.6-9.7 1.4-1 9.6-7.5-6.1-7.5 6.1-1-9.6-9.7-1.4 7-6.6-3.5-9 9.5 1.7L32 17Z" fill="#ee4218" stroke="#ff9f25" stroke-width="1.4"/>
+    <circle cx="32" cy="34" r="10" fill="url(#core)"/>
+    <path d="M27 31c2-5 8-7 12-3-5 0-8 2-11 6-1-1-1-2-1-3Z" fill="#fffde3" opacity=".95"/>
+  </g>
+  <g fill="#ffd75a">
+    <circle cx="8.5" cy="10.5" r="1.4"/><circle cx="55.5" cy="8.5" r="1.1"/>
+    <circle cx="57" cy="51" r="1.5"/><circle cx="9" cy="56" r="1"/>
+  </g>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#df7135" stroke-opacity=".65" stroke-width="1.5"/>
+</svg>

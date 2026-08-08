@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Oakhide Leggings</title>
+  <defs>
+    <linearGradient id="hide" x1="16" y1="7" x2="47" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#98754a"/>
+      <stop offset=".43" stop-color="#6a5136"/>
+      <stop offset="1" stop-color="#34271e"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="20" y1="25" x2="44" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#aa834e"/>
+      <stop offset=".52" stop-color="#765736"/>
+      <stop offset="1" stop-color="#443021"/>
+    </linearGradient>
+    <linearGradient id="belt" x1="16" y1="8" x2="48" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4b3627"/>
+      <stop offset=".5" stop-color="#76583a"/>
+      <stop offset="1" stop-color="#30231d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Heavy, widely separated legs read as leggings before the surface detail. -->
+  <path d="M15 8c11-4 23-4 34 0l-2 19-2 32H31l-2-27-5 27H9l7-32-1-19Z" fill="url(#hide)" stroke="#251c19" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 18h9l-1 14-5 8-3-11V18Z" fill="#2a201b" opacity=".92"/>
+
+  <!-- Overlapping rawhide guards and oak-leaf knee plates distinguish them from plain trousers. -->
+  <path d="m14 27 14 2-3 13-14-2 3-13Zm23 2 11-2-1 13-14 2 4-13Z" fill="url(#panel)" stroke="#463222" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="m12 39 13 2-2 15-14 1 3-18Zm22 2 13-2-1 18-14-1 2-15Z" fill="#61462f" stroke="#39291f" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M18 34c4 2 6 6 4 11-5 0-8-3-8-7 2 0 3-1 4-4Zm28 4c0 4-3 7-8 7-2-5 0-9 4-11 1 3 2 4 4 4Z" fill="#a9824b" stroke="#4c3827" stroke-width="1"/>
+  <path d="m18 38 1 7m27-7-1 7" stroke="#ddbc71" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Wide ranger belt and conspicuous stitching sell the stiff, worked-hide construction. -->
+  <path d="M15 10c11 3 23 3 34 0l-1 9c-11 3-22 3-33 0v-9Z" fill="url(#belt)" stroke="#2a201b" stroke-width="1.6"/>
+  <path d="M27 11h10v9H27z" fill="#b58c4b" stroke="#392b21" stroke-width="1.3"/>
+  <path d="M30 13h4v5h-4z" fill="#453326"/>
+  <path d="m14 29 12 2m-14 7 12 2m14-9 9-2m-12 11 11-2M10 54l13 1m9 0 14-1" fill="none" stroke="#d0aa65" stroke-width="1.15" stroke-linecap="round" stroke-dasharray="2 2" opacity=".9"/>
+</svg>

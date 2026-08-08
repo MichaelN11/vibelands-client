@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Rugged Hearthside Boarhide Boots</title>
+  <defs>
+    <linearGradient id="hide" x1="18" y1="7" x2="45" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a47747"/>
+      <stop offset=".45" stop-color="#65442e"/>
+      <stop offset="1" stop-color="#30221e"/>
+    </linearGradient>
+    <linearGradient id="toe" x1="25" y1="36" x2="57" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8c5d3b"/>
+      <stop offset=".5" stop-color="#543626"/>
+      <stop offset="1" stop-color="#2b201d"/>
+    </linearGradient>
+    <linearGradient id="strap" x1="15" y1="20" x2="42" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c08b53"/>
+      <stop offset="1" stop-color="#6a452e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- One broad side-profile boot distinguishes the reward from the paired recruit boots. -->
+  <path d="M14 9c8-4 16-3 22 1l-1 27c7 3 13 6 21 8 5 1 6 5 4 9-2 4-6 6-12 6H8c-6 0-8-6-4-10l11-12-1-29Z" fill="url(#hide)" stroke="#211918" stroke-width="2.7" stroke-linejoin="round"/>
+  <path d="M34 36c7 4 15 7 23 9 4 1 5 5 2 8-10 3-23 1-31-3-5-4-2-11 6-14Z" fill="url(#toe)" stroke="#3c281f" stroke-width="1.2"/>
+
+  <!-- Jagged bristle trim, rawhide wraps, and a horn toggle pair visually with the gloves. -->
+  <path d="m13 10 5-5 4 4 4-5 4 5 5-4 3 5-3 10c-7-3-14-3-20 0l-2-10Z" fill="#3b2a24" stroke="#211918" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M17 17c6-2 12-2 18 1l-1 20-17 1V17Z" fill="#493027" stroke="#2b201d" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="m16 22 20 5-20 5 19 5" fill="none" stroke="url(#strap)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m18 22 16 4m-16 6 15 4" fill="none" stroke="#e0a96b" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+  <path d="M21 27c4-2 9-1 12 1-2 3-7 5-12 4v-5Z" fill="#ddc28c" stroke="#5d4935" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M24 28c2 0 4 0 6 1" fill="none" stroke="#fff0bd" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Reinforced toe scars and a heavy lug sole keep the footwear rugged and quest-worthy. -->
+  <path d="M37 41c5 3 10 5 16 6m-20-2c6 4 13 6 20 7" fill="none" stroke="#b97e4d" stroke-width="1.3" stroke-linecap="round" opacity=".74"/>
+  <path d="m42 43 3 4m5-2 3 4" fill="none" stroke="#3d281f" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M7 50c15 3 33 3 52 0 1 5-2 9-8 10H8c-5 0-7-6-1-10Z" fill="#211918" stroke="#151213" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M10 51c14 2 29 2 46 0" fill="none" stroke="#b9814d" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="2 2"/>
+  <path d="M11 55h9l-2 5h-9m13-5h9l-1 5H20m13-5h9l1 5H31m14-5h11l-4 5H43" fill="#151213"/>
+</svg>

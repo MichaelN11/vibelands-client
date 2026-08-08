@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Flame Nova Movement Slow</title>
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="48%" r="76%">
+      <stop stop-color="#5c1714"/>
+      <stop offset=".55" stop-color="#290c16"/>
+      <stop offset="1" stop-color="#09060d"/>
+    </radialGradient>
+    <linearGradient id="boot" x1="24" y1="9" x2="39" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5b2630"/>
+      <stop offset=".5" stop-color="#31151e"/>
+      <stop offset="1" stop-color="#160b12"/>
+    </linearGradient>
+    <linearGradient id="molten" x1="32" y1="31" x2="32" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4a0"/>
+      <stop offset=".28" stop-color="#ffc13a"/>
+      <stop offset=".68" stop-color="#f04a18"/>
+      <stop offset="1" stop-color="#94131b"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="21" y1="39" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd45a"/>
+      <stop offset=".55" stop-color="#ff7d1d"/>
+      <stop offset="1" stop-color="#cf2918"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <path d="M6 49c6-7 14-10 25-10 12 0 21 4 27 11-5 7-15 10-27 10-11 0-20-4-25-11Z" fill="#79131a" opacity=".62"/>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M7 31h13" stroke="#e84219" stroke-width="2.4"/>
+    <path d="M4 38h13" stroke="#ff8520" stroke-width="2.4"/>
+    <path d="M8 45h10" stroke="#ffc13a" stroke-width="2.4"/>
+  </g>
+  <path d="M20 8h17l-2 21c0 5 5 8 11 10 7 2 11 6 10 11-1 4-5 6-11 6H25c-7 0-11-3-11-8 0-4 3-7 8-10l2-6-4-24Z" fill="url(#boot)" stroke="#a63a24" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M21 9h15l-1 8H22L21 9Z" fill="#7a3032" stroke="#df5a2a" stroke-width="1.2"/>
+  <path d="m23 21 12 6m-11 1 11 6" fill="none" stroke="#a94b32" stroke-width="2" stroke-linecap="round"/>
+  <path d="M22 37c-5 3-8 7-8 11 0 5 4 8 11 8h20c6 0 10-2 11-6-9 2-15 1-21-3-5-4-8-7-13-10Z" fill="#190b11"/>
+  <path d="M15 48c4 2 9 3 15 3h18c3 0 6-1 8-2 0 5-4 8-11 8H25c-7 0-10-3-10-9Z" fill="url(#sole)" stroke="#ffb12a" stroke-width="1.4" stroke-linejoin="round" filter="url(#glow)"/>
+  <g fill="url(#molten)" stroke="#ffb12a" stroke-width="1" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M11 53c5-4 12-6 21-6s17 2 22 6c-6 5-13 7-22 7s-16-2-21-7Zm9 0c3 2 7 3 12 3s9-1 13-3c-4-1-8-2-13-2s-9 1-12 2Z"/>
+    <path d="M17 43c-2-4 0-8 4-12 0 5 4 6 3 11l-7 1Z"/>
+    <path d="M43 48c0-5 3-8 7-12-1 5 3 7 1 12h-8Z"/>
+  </g>
+  <path d="M11 53c5-4 12-6 21-6s17 2 22 6" fill="none" stroke="#fff08a" stroke-width="1.7" stroke-linecap="round"/>
+  <g fill="#ffd75a">
+    <circle cx="7" cy="22" r="1.2"/><circle cx="54" cy="27" r="1.4"/><circle cx="50" cy="15" r=".9"/>
+  </g>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#df7135" stroke-opacity=".72" stroke-width="1.5"/>
+</svg>

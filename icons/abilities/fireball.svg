@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Fireball</title>
+  <defs>
+    <radialGradient id="bg" cx="72%" cy="25%" r="92%">
+      <stop offset="0" stop-color="#6d1b17"/>
+      <stop offset=".5" stop-color="#271025"/>
+      <stop offset="1" stop-color="#080713"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="38%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#fffbd0"/>
+      <stop offset=".22" stop-color="#ffe35d"/>
+      <stop offset=".56" stop-color="#ff741e"/>
+      <stop offset=".82" stop-color="#c52619"/>
+      <stop offset="1" stop-color="#5b0a18"/>
+    </radialGradient>
+    <linearGradient id="tail" x1="7" y1="56" x2="45" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6d101e" stop-opacity=".15"/>
+      <stop offset=".35" stop-color="#e52b18"/>
+      <stop offset=".72" stop-color="#ff971d"/>
+      <stop offset="1" stop-color="#ffe76a"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <path d="M4 59c8-14 15-19 27-25-6 1-11 0-17-2 8-5 15-7 24-6C23 18 15 16 8 17c9 10 12 15 12 22C12 43 7 50 4 59Z" fill="#6d101e" opacity=".8"/>
+  <path d="M6 57c9-13 18-19 33-25-9 0-15-2-21-6 10-2 20 0 29 5-13 5-19 13-24 24 0-6 1-10 3-14-8 5-13 10-20 16Z" fill="url(#tail)"/>
+  <path d="M16 52c8-8 15-13 26-17-7 6-11 11-14 19 0-5 0-8 2-11-5 3-9 6-14 9Z" fill="#ffd34a" opacity=".9"/>
+  <g filter="url(#glow)">
+    <circle cx="45" cy="24" r="13.5" fill="#f43d16" opacity=".55"/>
+    <circle cx="45" cy="24" r="10.8" fill="url(#orb)" stroke="#ffb42b" stroke-width="1"/>
+    <path d="M39 17c4-4 11-3 14 2-5-2-9-1-14 3 1-2 1-3 0-5Z" fill="#fffbd0" opacity=".82"/>
+  </g>
+  <path d="M48 7l1.5 5L54 14l-4.5 1.4L47 20l-.4-5.2-4-2.9 5.1-.7L48 7ZM57 25l.8 2.7 2.6 1.1-2.5.9-1.3 2.5-.2-2.8-2-1.5 2.6-.4.9-2.5Z" fill="#ffd950"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#df7135" stroke-opacity=".65" stroke-width="1.5"/>
+</svg>

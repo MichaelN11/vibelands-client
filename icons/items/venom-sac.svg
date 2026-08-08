@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Venom Sac</title>
+  <defs>
+    <radialGradient id="sac" cx="35%" cy="25%" r="82%">
+      <stop stop-color="#dfff82"/>
+      <stop offset=".28" stop-color="#9bd83f"/>
+      <stop offset=".6" stop-color="#4e8d32"/>
+      <stop offset=".84" stop-color="#46522e"/>
+      <stop offset="1" stop-color="#262c25"/>
+    </radialGradient>
+    <linearGradient id="membrane" x1="21" y1="20" x2="47" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8ff9a"/>
+      <stop offset=".45" stop-color="#6ab63d"/>
+      <stop offset="1" stop-color="#314328"/>
+    </linearGradient>
+    <linearGradient id="chitin" x1="17" y1="8" x2="45" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ad8d71"/>
+      <stop offset=".48" stop-color="#5f463d"/>
+      <stop offset="1" stop-color="#2e2528"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Paired chitin hooks identify this as a harvested spider gland, not a bottle. -->
+  <path d="M28 22C20 21 15 17 14 9c6 2 11 5 14 10m8 3c8-1 13-5 14-13-6 2-11 5-14 10" fill="none" stroke="url(#chitin)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M18 11c1 5 5 8 10 9m18-9c-1 5-5 8-10 9" fill="none" stroke="#d4b796" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+  <path d="m25 18 7-5 7 5-3 9h-8l-3-9Z" fill="url(#chitin)" stroke="#2c2528" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Swollen translucent gland with a pinched neck and heavy hanging silhouette. -->
+  <path d="M28 23c-1 5-7 9-9 17-3 11 2 20 13 20s16-9 13-20c-2-8-8-12-9-17h-8Z" fill="url(#sac)" stroke="#26352a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M25 39c-1 8 2 15 9 17 5 1 9-2 11-7-1 7-5 11-13 11-11 0-16-9-13-20 2-8 8-12 9-17h3c-1 7-5 9-6 16Z" fill="#25372c" opacity=".38"/>
+  <path d="M29 27c-4 6-7 10-7 16 0 4 1 7 4 10" fill="none" stroke="#efffb2" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Branching veins and escaping droplets communicate living, dangerous venom. -->
+  <path d="M32 27v10l-6 6m6-7 7 5m-7 2 4 7m-4-9-5 10" fill="none" stroke="#334b2f" stroke-width="1.45" stroke-linecap="round" opacity=".82"/>
+  <path d="M48 37c4 5 5 7 5 9a4 4 0 0 1-8 0c0-2 1-4 3-9Z" fill="#a7ec47" stroke="#32452d" stroke-width="1.4"/>
+  <path d="M49 42c-1 2-1 4 1 5" fill="none" stroke="#efffb3" stroke-width="1.2" stroke-linecap="round" opacity=".72"/>
+  <circle cx="38" cy="34" r="1.5" fill="#d8ff7a" opacity=".7"/>
+  <circle cx="27" cy="47" r="1.1" fill="#d8ff7a" opacity=".56"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Spring Water Waterskin</title>
+  <defs>
+    <radialGradient id="hide" cx="34%" cy="25%" r="85%">
+      <stop stop-color="#d9a75d"/>
+      <stop offset=".32" stop-color="#a86738"/>
+      <stop offset=".72" stop-color="#633821"/>
+      <stop offset="1" stop-color="#321d18"/>
+    </radialGradient>
+    <linearGradient id="neck" x1="25" y1="5" x2="42" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#efcf8b"/>
+      <stop offset=".45" stop-color="#ae713d"/>
+      <stop offset="1" stop-color="#54301f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="24" y1="34" x2="42" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d7ffff"/>
+      <stop offset=".3" stop-color="#69e8ef"/>
+      <stop offset="1" stop-color="#2494c5"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Long carrying strap, clearly separating the silhouette from a potion flask. -->
+  <path d="M25 9C12 14 5 27 8 41c2 10 9 17 20 19M39 9c13 8 19 20 16 33-2 8-7 14-15 18" fill="none" stroke="#3b241c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M25 9C12 14 5 27 8 41c2 10 9 17 20 19M39 9c13 8 19 20 16 33-2 8-7 14-15 18" fill="none" stroke="#a56a3d" stroke-width="2" stroke-linecap="round" stroke-dasharray="2.2 2.2" opacity=".9"/>
+
+  <!-- Soft, irregular leather waterskin. -->
+  <path d="M27 17c-1 4-5 6-8 10-5 6-7 14-5 21 3 9 11 12 20 11 12-1 19-7 18-17-1-8-7-14-13-18-3-2-4-4-4-7h-8Z" fill="url(#hide)" stroke="#efc77d" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M18 47c5 5 12 6 20 4 7-2 11-6 13-11 2 11-5 18-17 19-9 1-17-3-20-11l4-1Z" fill="#41231b" opacity=".52"/>
+  <path d="M19 31c4-5 8-7 9-12h5c0 5 3 7 8 10" fill="none" stroke="#f0c27a" stroke-width="2" stroke-linecap="round" opacity=".42"/>
+
+  <!-- Wooden stopper and cord-tied neck. -->
+  <path d="M27 17h9l1-9H26l1 9Z" fill="url(#neck)" stroke="#f0d28f" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M25 8h13l-2-4h-9l-2 4Z" fill="#65402b" stroke="#d9ad68" stroke-width="1.2"/>
+  <path d="M24 16c4 2 9 2 14 0M25 19c4-2 8-2 12 0" fill="none" stroke="#e5c06f" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M37 18c5 1 7 4 6 7" fill="none" stroke="#d6ae64" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Stitched seam around the hide. -->
+  <path d="M23 27c-5 5-7 12-5 19 2 6 8 9 16 8 7 0 13-3 15-9" fill="none" stroke="#f1bd70" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="2.1 2.4" opacity=".82"/>
+
+  <!-- Bright water mark painted onto the skin. -->
+  <g filter="url(#glow)">
+    <path d="M34 31c6 8 9 12 9 16a9 9 0 0 1-18 0c0-4 3-9 9-16Z" fill="url(#water)" stroke="#d9ffff" stroke-width="1.2"/>
+    <path d="M29 47c0 3 2 5 5 5" fill="none" stroke="#efffff" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <path d="M20 39c3-2 5-2 8 0M41 35c3-1 5-1 7 1" fill="none" stroke="#5b321f" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+  <circle cx="20" cy="44" r="1" fill="#3a2219" opacity=".55"/>
+  <circle cx="44" cy="30" r=".8" fill="#3a2219" opacity=".5"/>
+</svg>

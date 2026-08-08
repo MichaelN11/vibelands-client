@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Recruit's Blade</title>
+  <defs>
+    <linearGradient id="blade" x1="18" y1="45" x2="51" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#596776"/>
+      <stop offset=".32" stop-color="#c8d4e2"/>
+      <stop offset=".58" stop-color="#f1f6fa"/>
+      <stop offset="1" stop-color="#7d8d9e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="19" y1="38" x2="37" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1d486"/>
+      <stop offset=".45" stop-color="#a77a35"/>
+      <stop offset="1" stop-color="#574021"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="14" y1="45" x2="25" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#96623c"/>
+      <stop offset=".6" stop-color="#4b2d22"/>
+      <stop offset="1" stop-color="#251923"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Every component is built on one vertical centerline, then rotated as a unit. -->
+  <g transform="rotate(38 32 32)">
+    <!-- Broad, worn steel blade. -->
+    <path d="m32 2 6 8-3 33h-6l-3-33 6-8Z" fill="url(#blade)" stroke="#202735" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="m32 4 1 37h-3l-2-30 4-7Z" fill="#f7fbff" opacity=".62"/>
+    <path d="M32 4v38" fill="none" stroke="#44505e" stroke-width="1" opacity=".65"/>
+    <path d="m28.5 17 3.5 3 3.5-3m-6.2 9 2.7 2.5 2.7-2.5" fill="none" stroke="#4b5869" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Compact brass guard and leather-wrapped grip. -->
+    <path d="m18 40 4-4 8 5h4l8-5 4 4-10 7h-8l-10-7Z" fill="url(#gold)" stroke="#2f2530" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M28 46h8v12h-8Z" fill="url(#leather)" stroke="#241b24" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M29 49h6m-6 3h6m-6 3h6" fill="none" stroke="#d09b59" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
+    <path d="m27 57 5-2 5 2-1 5h-8l-1-5Z" fill="url(#gold)" stroke="#2f2530" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="32" cy="59" r="1.5" fill="#f0ce75"/>
+  </g>
+</svg>

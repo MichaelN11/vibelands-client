@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Apprentice Robe</title>
+  <defs>
+    <linearGradient id="cloth" x1="21" y1="7" x2="43" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d95b40"/>
+      <stop offset=".35" stop-color="#a4372d"/>
+      <stop offset=".72" stop-color="#76282b"/>
+      <stop offset="1" stop-color="#421d26"/>
+    </linearGradient>
+    <linearGradient id="sleeve" x1="8" y1="15" x2="56" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70282b"/>
+      <stop offset=".48" stop-color="#b93f30"/>
+      <stop offset="1" stop-color="#491e27"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="25" y1="8" x2="40" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd46a"/>
+      <stop offset=".5" stop-color="#c37a35"/>
+      <stop offset="1" stop-color="#6d3828"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Long hanging sleeves frame the body without overpowering the dress silhouette. -->
+  <path d="m21 12-10 5-7 21 9 5 8-16 3-13-3-2Zm22 0 10 5 7 21-9 5-8-16-3-13 3-2Z" fill="url(#sleeve)" stroke="#301a22" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="m9 20 10 6m36-6-10 6" fill="none" stroke="#e36e49" stroke-width="1.4" stroke-linecap="round" opacity=".62"/>
+
+  <!-- A fitted bodice flows into one broad, floor-length A-line skirt. -->
+  <path d="M22 10c3-3 6-4 10-4s7 1 10 4l3 17 10 33H9l10-33 3-17Z" fill="url(#cloth)" stroke="#301a22" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M23 9c3-5 15-5 18 0-1 7-5 11-9 14-4-3-8-7-9-14Z" fill="#382025" stroke="url(#gold)" stroke-width="2"/>
+  <path d="m27 10 5 11 5-11" fill="none" stroke="#f4b94e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- The narrow waist and vertical folds make the lower two-thirds read as a robe, not a tunic. -->
+  <path d="M18 25c9 3 19 3 28 0l1 7c-10 3-20 3-30 0l1-7Z" fill="#3b2023" stroke="#b86e33" stroke-width="1.5"/>
+  <path d="M29 26h7v7h-7z" fill="url(#gold)" stroke="#573027" stroke-width="1.2"/>
+  <path d="m22 35-5 23m15-24v24m10-23 5 23" fill="none" stroke="#d7703b" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M12 57c12-3 28-3 40 0" fill="none" stroke="#e68a46" stroke-width="1.5" stroke-linecap="round" opacity=".76"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Pyromancer</title>
+  <defs>
+    <linearGradient id="outerFlame" x1="22" y1="8" x2="43" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff493"/>
+      <stop offset=".2" stop-color="#ffad27"/>
+      <stop offset=".56" stop-color="#f04418"/>
+      <stop offset=".84" stop-color="#9a111c"/>
+      <stop offset="1" stop-color="#271025"/>
+    </linearGradient>
+    <linearGradient id="innerFlame" x1="30" y1="28" x2="35" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffde4"/>
+      <stop offset=".36" stop-color="#ffe35d"/>
+      <stop offset=".74" stop-color="#ff8b20"/>
+      <stop offset="1" stop-color="#ed3517"/>
+    </linearGradient>
+    <linearGradient id="violetFlame" x1="19" y1="23" x2="31" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9a2a1d"/>
+      <stop offset=".58" stop-color="#711923"/>
+      <stop offset="1" stop-color="#39152c"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-25%" width="170%" height="160%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path d="M33 3c1 10-4 15-8 21-3 4-4 8-2 12-5-3-7-8-6-15C9 28 6 36 8 45c2 11 12 17 24 17 15 0 25-10 25-24 0-11-6-20-14-27 1 10-3 15-8 19 3-10 2-19-2-27Z" fill="#5b0a18" opacity=".72" filter="url(#glow)"/>
+  <path d="M33 3c1 10-4 15-8 21-3 4-4 8-2 12-5-3-7-8-6-15C9 28 6 36 8 45c2 11 12 17 24 17 15 0 25-10 25-24 0-11-6-20-14-27 1 10-3 15-8 19 3-10 2-19-2-27Z" fill="url(#outerFlame)" stroke="#6d101e" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M17 21c-1 10 4 14 9 19-4 5-4 12 1 19C16 56 11 50 11 42c0-8 2-15 6-21Z" fill="url(#violetFlame)" opacity=".78"/>
+  <path d="M35 28c1 8-4 11-7 16-2 4-1 9 3 14-7-1-11-6-11-12 0-7 5-13 15-18Zm8 4c5 5 8 10 7 16-1 6-5 10-11 12 4-5 5-9 2-13-3-5 1-9 2-15Z" fill="#ff7a1c" opacity=".82"/>
+  <path d="M35 31c1 6-3 10-6 14-3 5 0 11 5 15 7-3 11-8 10-14-1-5-5-9-7-13 0 5-2 7-4 9 1-4 1-8 2-11Z" fill="url(#innerFlame)" stroke="#fff08a" stroke-width="1" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M33 43c0 4-3 6-2 10 .5 2 2 4 4 6 4-2 6-5 5-8-.7-3-3-5-5-8 0 3-1 5-2 6 .5-2 .5-4 0-6Z" fill="#fffde4"/>
+
+  <g fill="#ffd75a" filter="url(#glow)">
+    <path d="m12 13 1.2 3.2 3.2 1.2-3.2 1.2-1.2 3.2-1.2-3.2-3.2-1.2 3.2-1.2L12 13Z"/>
+    <path d="m52 6 .8 2.2L55 9l-2.2.8L52 12l-.8-2.2L49 9l2.2-.8L52 6Z"/>
+    <circle cx="54" cy="23" r="1.5"/>
+    <circle cx="20" cy="9" r="1.2"/>
+  </g>
+</svg>

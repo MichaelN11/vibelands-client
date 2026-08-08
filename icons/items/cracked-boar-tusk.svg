@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Cracked Boar Tusk</title>
+  <defs>
+    <linearGradient id="ivory" x1="13" y1="52" x2="54" y2="9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75634c"/>
+      <stop offset=".2" stop-color="#c7b58e"/>
+      <stop offset=".48" stop-color="#fff1c9"/>
+      <stop offset=".76" stop-color="#e5d29e"/>
+      <stop offset="1" stop-color="#9b805c"/>
+    </linearGradient>
+    <linearGradient id="root" x1="8" y1="41" x2="22" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9a7651"/>
+      <stop offset=".55" stop-color="#59412f"/>
+      <stop offset="1" stop-color="#2b2220"/>
+    </linearGradient>
+  </defs>
+
+  <!-- A single heavy, upward-curving tusk with a chipped, freshly broken root. -->
+  <path d="m9 45 5-8 7 1C33 37 44 28 51 15l5-9c-1 16-5 29-14 39-7 8-16 12-28 12l-6-5 4-3-3-4Z" fill="url(#ivory)" stroke="#4a3d33" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M17 40c12-1 23-8 31-19-5 12-15 22-29 27" fill="none" stroke="#fff8dc" stroke-width="2.2" stroke-linecap="round" opacity=".86"/>
+  <path d="M41 34c6-7 10-15 14-24" fill="none" stroke="#fdf1cf" stroke-width="1.2" stroke-linecap="round" opacity=".72"/>
+
+  <!-- The dark root and jagged break keep it from reading as a horn or crescent. -->
+  <path d="m9 45 5-8 8 1-2 5 4 3-5 3 2 6-7 2-6-5 4-3-3-4Z" fill="url(#root)" stroke="#352b27" stroke-width="2.1" stroke-linejoin="round"/>
+  <path d="m13 39 4 4-3 3 4 3-3 6" fill="none" stroke="#d2bb8d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m23 39 5 3-4 4 5 2" fill="none" stroke="#796549" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m32 36 4 2-3 4 4 2" fill="none" stroke="#9e8863" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45 26c2-2 4-5 5-8" fill="none" stroke="#8a7455" stroke-width="1.15" stroke-linecap="round" opacity=".7"/>
+  <path d="m18 53-4-2 2-2" fill="none" stroke="#ead7aa" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

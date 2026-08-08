@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Wolfhide Vest</title>
+  <defs>
+    <linearGradient id="hide" x1="15" y1="8" x2="49" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ba3ae"/>
+      <stop offset=".42" stop-color="#5a6270"/>
+      <stop offset="1" stop-color="#29303a"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="11" y1="10" x2="52" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c0c5cb"/>
+      <stop offset=".45" stop-color="#8a92a0"/>
+      <stop offset="1" stop-color="#444b58"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="23" y1="28" x2="41" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6b5040"/>
+      <stop offset="1" stop-color="#30252a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep armholes and an open front establish a sleeveless vest silhouette. -->
+  <path d="m18 13-9 5-5 14 9 5 6-10-2 31 15-4 15 4-2-31 6 10 9-5-5-14-9-5-8-4H26l-8 4Z" fill="url(#hide)" stroke="#20252e" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M24 10c2 5 5 8 8 11 3-3 6-6 8-11l7 5-5 16 2 27-12-4-12 4 2-27-5-16 7-5Z" fill="#4a515e" stroke="#252b34" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M31 20 25 53l7 1 7-1-6-33h-2Z" fill="url(#leather)" stroke="#282128" stroke-width="1.4"/>
+
+  <!-- A shaggy wolf-pelt collar with ears and brow gives the material a specific identity. -->
+  <path d="m17 14 4-10 7 8 4-5 4 5 7-8 4 10-4 9-5 5-6-5-6 5-5-5-4-9Z" fill="url(#fur)" stroke="#252b34" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="m22 9 4 5-6 3m22-8-4 5 6 3" fill="#3c434e" stroke="#262b34" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="m27 15 5-3 5 3-2 5h-6l-2-5Z" fill="#343943" stroke="#1e2229" stroke-width="1.2"/>
+  <path d="m29 16 3 2 3-2" fill="none" stroke="#b9c1ca" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- Uneven tufts, cross-lacing, and two trophy fangs keep the hide feeling feral. -->
+  <path d="m13 29 5 2-4 5m35-7-5 2 4 5M20 47l5 2-5 7m24-9-5 2 5 7" fill="none" stroke="#a8afb9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m26 29 12 5-13 6 14 6-15 6m14-23-12 5 13 6-14 6 15 6" fill="none" stroke="#b28a64" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m25 29 2 9-5-4 3-5Zm14 0-2 9 5-4-3-5Z" fill="#eee3c8" stroke="#675845" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>

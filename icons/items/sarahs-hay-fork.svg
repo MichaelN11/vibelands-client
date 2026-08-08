@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Bent Hay Fork</title>
+  <defs>
+    <linearGradient id="haft" x1="18" y1="60" x2="40" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2e2019"/>
+      <stop offset=".42" stop-color="#6b4728"/>
+      <stop offset=".74" stop-color="#a97b45"/>
+      <stop offset="1" stop-color="#4a3220"/>
+    </linearGradient>
+    <linearGradient id="tine" x1="16" y1="26" x2="50" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3f4650"/>
+      <stop offset=".38" stop-color="#98a3ad"/>
+      <stop offset=".64" stop-color="#dde5ea"/>
+      <stop offset="1" stop-color="#59636e"/>
+    </linearGradient>
+    <linearGradient id="ferrule" x1="20" y1="34" x2="44" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4c453c"/>
+      <stop offset=".5" stop-color="#8d8375"/>
+      <stop offset="1" stop-color="#38322c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Laid on the diagonal so the three-tine head fills the top of the tile. -->
+  <g transform="rotate(20 32 32)">
+    <path d="M28 26h8v33h-8Z" fill="url(#haft)" stroke="#211812" stroke-width="2.3" stroke-linejoin="round"/>
+    <path d="M30 31h4v25h-4Z" fill="#b98a4f" opacity=".38"/>
+    <path d="m27 40 10-1m-10 7 10-1m-10 7 10-1" fill="none" stroke="#c9985d" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>
+    <path d="m27 57 5-2 5 2-1 5h-8l-1-5Z" fill="#43291f" stroke="#1f1613" stroke-width="1.8" stroke-linejoin="round"/>
+
+    <!-- Iron socket, then three long tines. The middle one is kinked: this is the
+         fork that got left in the straw and trodden on. -->
+    <path d="M26 20h12v9H26Z" fill="url(#ferrule)" stroke="#241f1c" stroke-width="2.1" stroke-linejoin="round"/>
+    <path d="M27 23h10" fill="none" stroke="#c6bcab" stroke-width="1.2" stroke-linecap="round" opacity=".75"/>
+    <path d="M31 21c-6-1-11-4-15-9-1 2-1 4 0 5 4 5 9 7 15 8v-4Z" fill="url(#tine)" stroke="#232931" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M30 20V4h4l1 16h-5Z" fill="url(#tine)" stroke="#232931" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M33 21c6-1 11-4 15-9 1 2 1 4 0 5-4 5-9 7-15 8v-4Z" fill="url(#tine)" stroke="#232931" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M18 12c4 4 8 6 12 7M32 6v12m14-6c-4 4-8 6-12 7" fill="none" stroke="#f2f7fa" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+
+    <!-- A few stalks of hay still caught on the iron. -->
+    <path d="m23 27 6-4m-3 8 7-5m2 1 6-4" fill="none" stroke="#d9c07a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+  </g>
+</svg>

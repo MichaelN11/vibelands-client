@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Minor Mana Potion</title>
+  <defs>
+    <linearGradient id="glass" x1="17" y1="11" x2="49" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e7faff" stop-opacity=".95"/>
+      <stop offset=".32" stop-color="#95ccea" stop-opacity=".28"/>
+      <stop offset=".72" stop-color="#5661a0" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#d8e8ff" stop-opacity=".8"/>
+    </linearGradient>
+    <radialGradient id="mana" cx="36%" cy="28%" r="76%">
+      <stop stop-color="#cfffff"/>
+      <stop offset=".2" stop-color="#55ecff"/>
+      <stop offset=".57" stop-color="#2879df"/>
+      <stop offset="1" stop-color="#43258e"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="22" y1="4" x2="42" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5dca3"/>
+      <stop offset=".45" stop-color="#a97a3e"/>
+      <stop offset="1" stop-color="#4e2f29"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="2.3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="m8 16 5 2 2 5 2-5 5-2-5-2-2-5-2 5-5 2Zm38 3 3 1 1 3 1-3 3-1-3-1-1-3-1 3-3 1Z" fill="#78ddff" opacity=".62"/>
+  <path d="M25 15h14v8c0 2 1 3 3 5 6 5 10 12 9 19-1 8-8 12-19 12S14 55 13 47c-1-7 3-14 9-19 2-2 3-3 3-5v-8Z" fill="url(#glass)" stroke="#d6f3ff" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M17 40c5 2 9 0 13-1 8-3 12 3 17 0 3 11-3 17-15 17-11 0-17-6-15-16Z" fill="url(#mana)" stroke="#74eaff" stroke-width="1"/>
+  <path d="M20 37c3-6 8-9 8-14v-7h8v8c0 4 6 8 8 13-8-3-14 4-24 0Z" fill="#8dceff" opacity=".2"/>
+  <path d="M23 14h18l-2-5H25l-2 5Z" fill="url(#metal)" stroke="#f4d995" stroke-width="1.3"/>
+  <path d="m26 9 2-5h8l2 5H26Z" fill="#573b37" stroke="#d2aa67" stroke-width="1.2"/>
+  <path d="M21 31c-4 6-5 13-3 18" fill="none" stroke="#f2fcff" stroke-width="2.1" stroke-linecap="round" opacity=".72"/>
+  <g filter="url(#glow)">
+    <path d="M37 39c-7-2-11 6-6 11 3 3 9 2 12-2-2 7-12 9-17 3-7-8 1-19 11-16-2 0-3 2-3 3s1 1 3 1Z" fill="#d9ffff"/>
+    <path d="m41 36 .8 2.4 2.4.8-2.4.8-.8 2.4-.8-2.4-2.4-.8 2.4-.8.8-2.4Z" fill="#fff6b2"/>
+  </g>
+  <circle cx="44" cy="31" r="1.4" fill="#d8ffff"/>
+</svg>

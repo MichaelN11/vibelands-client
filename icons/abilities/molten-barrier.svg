@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Molten Barrier</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop stop-color="#522016"/>
+      <stop offset=".5" stop-color="#1e1020"/>
+      <stop offset="1" stop-color="#07060d"/>
+    </radialGradient>
+    <linearGradient id="stone" x1="19" y1="9" x2="46" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69524c"/>
+      <stop offset=".28" stop-color="#322b31"/>
+      <stop offset=".7" stop-color="#17151c"/>
+      <stop offset="1" stop-color="#08080c"/>
+    </linearGradient>
+    <linearGradient id="lava" x1="38" y1="14" x2="26" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff58a"/>
+      <stop offset=".25" stop-color="#ffb224"/>
+      <stop offset=".62" stop-color="#f04617"/>
+      <stop offset="1" stop-color="#9a111c"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-30%" width="260%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <path d="M32 4 53 12v18c0 14-8 24-21 31C19 54 11 44 11 30V12L32 4Z" fill="#7c1a16" opacity=".55" filter="url(#glow)"/>
+  <path d="M32 6 51 13v17c0 13-7 22-19 28-12-6-19-15-19-28V13L32 6Z" fill="url(#stone)" stroke="#a76b3d" stroke-width="2"/>
+  <path d="M16 16 32 10l16 6v8c-9-2-21-2-32 1v-9Z" fill="#7c6458" opacity=".28"/>
+  <path d="m34 9-5 13 5 5-6 8 3 5-7 13M34 27l9-5M28 35l-9-3M31 40l9 6" fill="none" stroke="#4d130f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#glow)" fill="none" stroke="url(#lava)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m34 9-5 13 5 5-6 8 3 5-7 13" stroke-width="2.8"/>
+    <path d="m34 27 9-5M28 35l-9-3M31 40l9 6" stroke-width="2"/>
+  </g>
+  <path d="M8 26c-3 5-3 10 0 15-1-5 2-7 2-11l-2-4Zm48 0c3 5 3 10 0 15 1-5-2-7-2-11l2-4ZM15 48c-1 4 1 8 5 10-2-4 0-6-1-9l-4-1Zm34 0c1 4-1 8-5 10 2-4 0-6 1-9l4-1Z" fill="#ff6b19"/>
+  <path d="M32 6 51 13v17c0 13-7 22-19 28-12-6-19-15-19-28V13L32 6Z" fill="none" stroke="#e09243" stroke-opacity=".6"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#df7135" stroke-opacity=".65" stroke-width="1.5"/>
+</svg>

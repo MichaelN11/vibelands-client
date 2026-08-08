@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Emberwood Staff</title>
+  <defs>
+    <linearGradient id="wood" x1="11" y1="61" x2="48" y2="11" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21171a"/>
+      <stop offset=".22" stop-color="#4a2c20"/>
+      <stop offset=".5" stop-color="#8a4f2b"/>
+      <stop offset=".72" stop-color="#4e2b20"/>
+      <stop offset="1" stop-color="#25191a"/>
+    </linearGradient>
+    <linearGradient id="hotWood" x1="12" y1="57" x2="44" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7f472a"/>
+      <stop offset=".58" stop-color="#c77939"/>
+      <stop offset="1" stop-color="#68321f"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="38%" cy="30%" r="66%">
+      <stop stop-color="#fffde0"/>
+      <stop offset=".18" stop-color="#fff178"/>
+      <stop offset=".45" stop-color="#ffae32"/>
+      <stop offset=".72" stop-color="#f05a24"/>
+      <stop offset="1" stop-color="#8f2027"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+
+  <!-- Lightning-split oak pole, drawn thick enough to survive inventory scale. -->
+  <path d="M8 62c-2.1-1.6-2.1-3.8.1-6.2 8.5-8.5 13.2-18.3 20.7-26.1 4.8-5 8-10.2 11.1-16.2l6.2 3.2c-3.2 6.6-6.8 12.3-12 17.7-7 7.4-11.8 17.5-20.5 26.5-1.9 2-3.8 2.4-5.6 1.1Z" fill="url(#wood)" stroke="#21151a" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M12 57.5c8-8.6 12.4-17.7 19.5-25.2 4.8-5 8.2-10.5 11.4-16.6" fill="none" stroke="url(#hotWood)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="m16.5 51 4.8 2m5.5-14.2 4.5 2.6" fill="none" stroke="#26171a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M18.5 48.5c2.1.1 3.8 1.1 5 3M28.8 34c2.2.2 4 1.3 5.2 3" fill="none" stroke="#e18a42" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Forked charred crown grips a bright ember instead of reading as a torch. -->
+  <path d="M42.5 23.5c-4.4-3.2-7.7-8.4-9.2-14.7l4.6-5.4c1.8 5.2 4.5 9 8.8 11.7l-4.2 8.4Z" fill="url(#wood)" stroke="#21151a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M49.4 23.2c4.7-3.9 7.8-9 9.1-15.7l-5.3-3.8c-1.7 5.1-4.2 9-8.4 11.9l4.6 7.6Z" fill="url(#wood)" stroke="#21151a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M40.9 16.1c-2-2.5-3.4-5.5-4.3-8.8m14.8 8.9c2-2.5 3.3-5.4 4.2-8.8" fill="none" stroke="#dc7a37" stroke-width="1.3" stroke-linecap="round" opacity=".8"/>
+  <circle cx="46.2" cy="16.8" r="10" fill="#ff6b28" opacity=".28" filter="url(#glow)"/>
+  <circle cx="46.2" cy="16.8" r="7.4" fill="url(#ember)" stroke="#652025" stroke-width="2"/>
+  <path d="M42.5 14.1c1.6-2.8 5.3-4 8.1-1.8" fill="none" stroke="#fff9ae" stroke-width="1.5" stroke-linecap="round" opacity=".9"/>
+  <circle cx="43.6" cy="12.9" r="1.1" fill="#fff"/>
+
+  <!-- A few square sparks echo the equipped model without obscuring the staff. -->
+  <path d="m57 18 2 1.3-1.2 2.1-2.1-1.2L57 18Zm-5.2 8.2 1.8 1.1-1 1.9-1.9-1.1 1.1-1.9ZM37.4 5.2 39 6.3l-1 1.7-1.7-1 1.1-1.8Z" fill="#ffae32" stroke="#7d2723" stroke-width=".7"/>
+</svg>

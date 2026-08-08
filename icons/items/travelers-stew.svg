@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Traveler's Stew in a Rustic Pot</title>
+  <defs>
+    <linearGradient id="iron" x1="12" y1="26" x2="50" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7b6a54"/>
+      <stop offset=".48" stop-color="#453b35"/>
+      <stop offset="1" stop-color="#211d20"/>
+    </linearGradient>
+    <radialGradient id="broth" cx="38%" cy="25%" r="80%">
+      <stop stop-color="#f0ae4c"/>
+      <stop offset=".5" stop-color="#a95428"/>
+      <stop offset="1" stop-color="#592b25"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="12" y1="27" x2="52" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b09469"/>
+      <stop offset=".45" stop-color="#665645"/>
+      <stop offset="1" stop-color="#312a29"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Three broad wisps stay legible at inventory scale without turning into a background. -->
+  <path d="M22 24c-4-4 3-6 0-11-2-3 0-6 3-8m10 19c-4-4 3-7 0-11-2-3 0-6 3-8m9 20c4-4-3-7 0-11 2-3 1-5-1-7" fill="none" stroke="#ead8b0" stroke-width="2.8" stroke-linecap="round" opacity=".82"/>
+  <path d="M23 19c2-2 4-4 2-7m11 7c2-2 3-4 1-6m10 7c-2-2-2-4 0-6" fill="none" stroke="#fff3ce" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Wide side handles and a deep belly establish a finished, cookable pot silhouette. -->
+  <path d="M14 29H8c-5 0-7 5-4 9 3 4 8 5 13 3m33-12h6c5 0 7 5 4 9-3 4-8 5-13 3" fill="none" stroke="#211c1d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 30H8c-3 0-4 3-2 5 2 3 6 4 10 3m34-8h6c3 0 4 3 2 5-2 3-6 4-10 3" fill="none" stroke="#735f48" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M11 30c1 18 8 29 21 29s20-11 21-29H11Z" fill="url(#iron)" stroke="#201b1d" stroke-width="2.7" stroke-linejoin="round"/>
+  <path d="M15 36c2 12 7 19 17 19 9 0 15-7 17-19-7 3-27 3-34 0Z" fill="#2d2727" opacity=".4"/>
+
+  <!-- The bright broth ellipse, root chunks, meat, and herbs read as a hearty finished meal. -->
+  <ellipse cx="32" cy="30" rx="21" ry="9" fill="url(#rim)" stroke="#211b1b" stroke-width="2.2"/>
+  <ellipse cx="32" cy="29" rx="17.5" ry="6.2" fill="url(#broth)" stroke="#6b3325" stroke-width="1.2"/>
+  <path d="m18 27 6-3 5 4-4 5-7-1v-5Zm13-3 7 1 1 5-6 3-5-4 3-5Z" fill="#d58a3d" stroke="#6a3825" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="m40 25 7 2-1 5-7 1-3-4 4-4Z" fill="#b64e3c" stroke="#60292b" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M23 29c2 0 4 1 6 3m12-4c2 0 4 1 5 2m-15-4 2 2" fill="none" stroke="#f5c76f" stroke-width="1.3" stroke-linecap="round" opacity=".75"/>
+  <path d="m20 29 4 1m13-3 4 2m-11 2 4-1" fill="none" stroke="#8ca34f" stroke-width="1.7" stroke-linecap="round"/>
+
+  <path d="M17 42c8 4 22 4 30 0" fill="none" stroke="#9c8060" stroke-width="1.5" stroke-linecap="round" opacity=".72"/>
+  <path d="M24 57v3m16-3v3" fill="none" stroke="#201b1d" stroke-width="3" stroke-linecap="round"/>
+</svg>

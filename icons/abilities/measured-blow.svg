@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Measured Blow</title>
+  <defs>
+    <radialGradient id="bg" cx="34%" cy="38%" r="76%">
+      <stop stop-color="#22586a"/>
+      <stop offset=".56" stop-color="#102d3b"/>
+      <stop offset="1" stop-color="#07141e"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="18" y1="49" x2="49" y2="14" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#839ba5"/>
+      <stop offset=".48" stop-color="#f8f5dc"/>
+      <stop offset="1" stop-color="#a8cbd2"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="12" y1="12" x2="51" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0a6"/>
+      <stop offset=".5" stop-color="#d5ad4e"/>
+      <stop offset="1" stop-color="#795022"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="7" fill="url(#bg)"/>
+  <path d="m41 5 2.4 9.5L52 9l-3.5 9 10 .5-9 4.5 7 7-9.8-2 1.1 10-6.2-7.8-5.3 8.5.1-10-9.5 3.2 6.3-7.8-9.7-2.4 9.6-3-4.5-8.8 8.2 5.5L41 5Z" fill="url(#gold)" opacity=".88" filter="url(#glow)"/>
+  <g transform="rotate(-4 32 32)" stroke-linejoin="round">
+    <path d="m14 52 8-2 29-34 2-11-10 5-27 36-2 6Z" fill="url(#blade)" stroke="#f4f6e7" stroke-width="1.6"/>
+    <path d="m20 47 28-33-5-2-27 34 4 1Z" fill="#5b7681" opacity=".72"/>
+    <path d="m13 43 13 11 4-5-13-11-4 5Z" fill="url(#gold)" stroke="#ffe99c" stroke-width="1.5"/>
+    <path d="m13 48 7 6-8 6-5-4 6-8Z" fill="#6e4721" stroke="#d8b65d" stroke-width="1.5"/>
+  </g>
+  <path d="M4 41C8 25 18 13 34 6 23 16 16 29 14 45L4 41Z" fill="#70b9c4" opacity=".3"/>
+  <path d="M8 38C13 25 21 15 31 9" fill="none" stroke="#d6f1ee" stroke-width="2.2" stroke-linecap="round" opacity=".82"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="6.25" fill="none" stroke="#89b6bd" stroke-opacity=".78" stroke-width="1.5"/>
+</svg>

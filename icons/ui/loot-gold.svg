@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="loot-coin" x1="8" y1="7" x2="24" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff3a3"/>
+      <stop offset=".42" stop-color="#e6ae37"/>
+      <stop offset="1" stop-color="#8d531c"/>
+    </linearGradient>
+  </defs>
+  <path d="M4.8 21.7v3.5c0 2.3 4.3 4.2 9.6 4.2s9.6-1.9 9.6-4.2v-3.5Z" fill="#a66522" stroke="#f5d46f" stroke-width="1.5" stroke-linejoin="round"/>
+  <ellipse cx="14.4" cy="21.7" rx="9.6" ry="4.2" fill="url(#loot-coin)" stroke="#ffe88c" stroke-width="1.5"/>
+  <path d="M9.2 16.2v3.5c0 2.3 4.2 4.2 9.4 4.2s9.4-1.9 9.4-4.2v-3.5Z" fill="#9d5e20" stroke="#f5d46f" stroke-width="1.5" stroke-linejoin="round"/>
+  <ellipse cx="18.6" cy="16.2" rx="9.4" ry="4.2" fill="url(#loot-coin)" stroke="#ffe88c" stroke-width="1.5"/>
+  <path d="M7.1 9.1v3.5c0 2.3 4.3 4.2 9.6 4.2s9.6-1.9 9.6-4.2V9.1Z" fill="#a66522" stroke="#f5d46f" stroke-width="1.5" stroke-linejoin="round"/>
+  <ellipse cx="16.7" cy="9.1" rx="9.6" ry="4.2" fill="url(#loot-coin)" stroke="#fff0a1" stroke-width="1.5"/>
+  <path d="m16.7 6.2 1 1.7 1.9.3-1.3 1.4.3 1.9-1.9-.8-1.7.8.2-1.9-1.3-1.4 1.9-.3Z" fill="#a66320" stroke="#ffe184" stroke-width=".45" stroke-linejoin="round"/>
+  <path d="M10.3 7.8c1.1-1.4 3.1-2.3 5.6-2.5" fill="none" stroke="#fff7bd" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+</svg>

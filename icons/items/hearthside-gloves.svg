@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Rugged Hearthside Boarhide Gloves</title>
+  <defs>
+    <linearGradient id="hide" x1="17" y1="9" x2="48" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a47747"/>
+      <stop offset=".46" stop-color="#65442e"/>
+      <stop offset="1" stop-color="#32231f"/>
+    </linearGradient>
+    <linearGradient id="palm" x1="22" y1="27" x2="42" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b78654"/>
+      <stop offset=".55" stop-color="#7b5133"/>
+      <stop offset="1" stop-color="#493025"/>
+    </linearGradient>
+    <linearGradient id="cuff" x1="16" y1="44" x2="48" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#795038"/>
+      <stop offset="1" stop-color="#342420"/>
+    </linearGradient>
+  </defs>
+
+  <!-- A broad, slightly curled work-glove silhouette emphasizes tough boar hide over finesse. -->
+  <path d="m19 31-3-12c-1-4 1-7 4-7 3 0 5 2 5 6l1 7-1-14c0-4 2-7 5-7 4 0 6 3 6 7v13l2-12c1-4 3-6 6-5 4 1 5 4 4 8l-3 12 4-7c2-4 5-5 8-2 3 3 1 7-1 10l-8 17c-3 7-8 10-15 10-8 0-14-5-17-11L8 34c-3-4-2-8 2-10 3-1 6 1 8 5l1 2Z" fill="url(#hide)" stroke="#241a19" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Raised knuckle hide and irregular scars separate the glove from smoother starter leather. -->
+  <path d="M20 29c7-5 19-6 27 0l1 12c-3 8-8 12-15 12-8 0-14-5-17-12l4-12Z" fill="#5d3c2a" stroke="#30211d" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M23 30c5-4 14-4 19 1l2 10c-2 5-6 8-11 8-6 0-10-4-12-9l2-10Z" fill="url(#palm)" stroke="#4d3023" stroke-width="1.4"/>
+  <path d="m26 25-2-9m12 9V10m9 17 3-13m-29 17 7 7" fill="none" stroke="#d1a16b" stroke-width="1.3" stroke-linecap="round" opacity=".72"/>
+  <path d="M25 35c4-3 10-3 14 0m-15 5c5-2 11-1 16 2m-12 4 7 1" fill="none" stroke="#d3a065" stroke-width="1.2" stroke-linecap="round" opacity=".72"/>
+  <path d="m30 31 3 4m6-5-2 5m-10 8 2 3" fill="none" stroke="#412820" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- A coarse bristled cuff and pale horn toggle give the reward its boar-hide identity. -->
+  <path d="m17 47 27-2 6 14H16l1-12Z" fill="url(#cuff)" stroke="#241a19" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="m17 48 4-5 3 4 4-5 4 4 4-5 4 4 4-3 2 5-29 1Z" fill="#3a2a24" stroke="#241a19" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="m21 51 24-2" fill="none" stroke="#bd8957" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="2 2"/>
+  <path d="M29 52c4-2 9-1 12 1-2 3-7 5-12 4v-5Z" fill="#ddc28c" stroke="#5d4935" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M32 53c2 0 4 0 6 1" fill="none" stroke="#fff0bd" stroke-width="1" stroke-linecap="round"/>
+</svg>

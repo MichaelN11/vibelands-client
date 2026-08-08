@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Apple Pie in a Baking Dish</title>
+  <defs>
+    <linearGradient id="pastry" x1="14" y1="16" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe4a6"/>
+      <stop offset=".42" stop-color="#e0a851"/>
+      <stop offset="1" stop-color="#96551f"/>
+    </linearGradient>
+    <radialGradient id="filling" cx="42%" cy="30%" r="76%">
+      <stop stop-color="#e2913a"/>
+      <stop offset=".55" stop-color="#a8401f"/>
+      <stop offset="1" stop-color="#57201a"/>
+    </radialGradient>
+    <linearGradient id="dish" x1="10" y1="42" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8fa3ad"/>
+      <stop offset=".5" stop-color="#556571"/>
+      <stop offset="1" stop-color="#2b333b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Two thin wisps: fresh from the oven, without becoming a background. -->
+  <path d="M23 15c-3-3 2-5 0-8m18 8c3-3-2-5 0-8" fill="none" stroke="#f0dcb4" stroke-width="2.2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- The glazed filling is the dark ground the pale lattice is read against. -->
+  <ellipse cx="32" cy="34" rx="22" ry="14" fill="url(#filling)" stroke="#4c1c17" stroke-width="2"/>
+  <path d="M18 27c5-3 12-4 19-3" fill="none" stroke="#f2b667" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Lattice: the one thing that says pie rather than loaf or tart. -->
+  <g stroke="#5f3211" stroke-width="1.1" stroke-linejoin="round">
+    <path d="M23 21c4 9 7 17 8 26m8-26c-3 9-5 17-6 26" fill="url(#pastry)" transform="translate(-3.5)"/>
+    <path d="M23 21c4 9 7 17 8 26m8-26c-3 9-5 17-6 26" fill="url(#pastry)" transform="translate(7.5)"/>
+    <path d="M13 30c11-3 27-3 38 0l-1 5c-11-3-25-3-36 0l-1-5Z" fill="url(#pastry)"/>
+    <path d="M15 39c10-3 24-3 34 0l-2 5c-9-3-21-3-30 0l-2-5Z" fill="url(#pastry)"/>
+  </g>
+
+  <!-- Crimped rim, then the dish under it. -->
+  <path d="M10 34c0-8 10-14 22-14s22 6 22 14c0 3-2 5-5 5-2 0-3-2-5-2s-3 2-6 2-4-2-6-2-3 2-6 2-4-2-6-2-3 2-5 2c-3 0-5-2-5-5Z" fill="url(#pastry)" stroke="#6b3a14" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M15 28c4-4 10-6 17-6" fill="none" stroke="#fff0c4" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+  <path d="M9 38c0 9 10 15 23 15s23-6 23-15c0 0-4 6-23 6S9 38 9 38Z" fill="url(#dish)" stroke="#20272d" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M14 45c4 3 11 5 18 5" fill="none" stroke="#b9c9d2" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="character-steel" x1="8" y1="4" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0bd"/>
+      <stop offset=".45" stop-color="#d3a567"/>
+      <stop offset="1" stop-color="#80512f"/>
+    </linearGradient>
+    <linearGradient id="character-gold" x1="10" y1="5" x2="23" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0a8"/>
+      <stop offset="1" stop-color="#b17731"/>
+    </linearGradient>
+  </defs>
+  <path d="M5.2 28.5c.4-5.9 4.2-9 10.8-9s10.4 3.1 10.8 9" fill="url(#character-steel)" stroke="#f5dda0" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="m10.2 21 5.8 5.4 5.8-5.4-1.1 7.5h-9.4L10.2 21Z" fill="#8d5b35" stroke="#e7c77e" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M9 12.5C9 6.8 11.5 3.5 16 3.5s7 3.3 7 9v5.2l-4.2 3.8h-5.6L9 17.7v-5.2Z" fill="url(#character-steel)" stroke="#f5dda0" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M9 12h14v5.2l-4.2 4.3h-5.6L9 17.2V12Z" fill="#4b3023" stroke="#e6c681" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="m11.6 14.8 3.1.7m5.7-.7-3.1.7" fill="none" stroke="#fff1a8" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M16 3.5v6.8M12.6 5.1 16 2l3.4 3.1" fill="url(#character-gold)" stroke="#f8dda0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 17.5v4" fill="none" stroke="#d8b66d" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
