@@ -1,6 +1,6 @@
 {
   "gameServerUrl": "wss://game.rogueslop.com/game",
-  "buildId": "057124cd0ea2",
+  "buildId": "99ef0440cb7d",
   "environment": "online-test",
   "accessTokenRequired": true
 }
